@@ -2,9 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: var(--pallete-bg);
-}
-a {
-    color: none;
+    font-family: sans-serif;
 }
 :root {
     --pallete-dark-green: #174031;
@@ -32,7 +30,18 @@ a {
 #header nav {
     width: 40%;
     height: 100%;
+    
+}
+#header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-size: larger;
+    list-style: none;
+}
+#header nav ul a {
     color: white;
-
+    text-decoration: none;
 }
 
